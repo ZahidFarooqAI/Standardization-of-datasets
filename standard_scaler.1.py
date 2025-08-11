@@ -25,3 +25,18 @@ print("\nScaled data (mean=0, std=1):\n", scaled_data)
 # You can also check the mean and standard deviation after scaling
 print("\nMeans after scaling:", scaled_data.mean(axis=0))
 print("Standard deviations after scaling:", scaled_data.std(axis=0))
+#OUTPUT
+#[[150  50]
+ [160  60]
+ [170  80]
+ [180  90]]
+
+#Scaled data (mean=0, std=1):
+ [[-1.34164079 -1.26491106]
+ [-0.4472136  -0.63245553]
+ [ 0.4472136   0.63245553]
+ [ 1.34164079  1.26491106]]
+
+#Means after scaling: [0.00000000e+00 5.55111512e-17]
+3Standard deviations after scaling: [1. 1.]
+
